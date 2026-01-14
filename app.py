@@ -36,7 +36,6 @@ def process_text(text):
 
 def main():
     st.title("📄PDF Summarizer")
-    st.write("Created by Hilman Singgih Wicaksana")
     st.divider()
 
     try:
@@ -73,4 +72,5 @@ def main():
             st.write(response)
 
 if __name__ == '__main__':
+
     main()
